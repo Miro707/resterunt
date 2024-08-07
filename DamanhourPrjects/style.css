@@ -1,0 +1,467 @@
+/* global style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-image: url(./resources-img/slider-image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+/* nav style */
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+/* ul style */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+/* links style */
+nav ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: #007bff;
+    /* Optional: Change color on hover */
+    background-color: #f1f1f1;
+    /* Optional: Add background color on hover */
+    border-radius: 4px;
+    /* Optional: Add border radius for rounded corners */
+    width: 300px;
+}
+
+/* right nav section */
+.rightNavSection a {
+    color: white;
+}
+
+.rightNavSection button {
+    padding: 20px;
+    background-color: #c43a3e;
+    color: white;
+    border: none;
+    font-size: large;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* contenet header */
+.headerContent {
+    margin-top: 30vh;
+    margin-left: 9%;
+
+}
+
+/* text */
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: larger;
+}
+
+.headerContent h5,
+h2 {
+    margin-bottom: 20px;
+}
+
+/* button */
+.headerContent button {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: large;
+
+}
+
+/* Second Section */
+.secondSection {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.secondSection .leftSection h5,
+h2,
+p {
+    margin-bottom: 20px;
+}
+
+/* right Section */
+.rightSection {
+    width: 20%;
+}
+
+.rightSection img {
+    height: 500px;
+    width: 500px;
+}
+
+/* left section */
+.leftSection {
+    width: 40%;
+}
+
+.leftSection p,
+h5 {
+    color: #b3abab;
+
+}
+
+.templatemo {
+    color: black;
+}
+
+/* THIRD SECTION*/
+
+.thSection {
+    background-color: #f7f4f4;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ourChefs {
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.chefs {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* chef content  */
+.leftChef,
+.midChef,
+.rhightChef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* images  */
+.leftChef img,
+.midChef img,
+.rhightChef img {
+    width: 400px;
+}
+
+.leftChef h1,
+h4,
+.midChef h1,
+h4,
+.rhightChef h1,
+h4 {
+    margin-top: 20px;
+
+}
+
+.leftChef h4,
+.midChef h4,
+.rhightChef h4 {
+    color: #c5bbbb;
+}
+
+
+
+
+/* menu */
+
+.menu-section {
+    background-color: #f7f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.section-header h5 {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.menu-item {
+    width: 33.3333%;
+    /* Make each image take up 1/3 of the width */
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* testimonials */
+.testimonials {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.testimonials {
+    background-image: url(./resources-img/testimonial-bg.jpg);
+    height: 100vh;
+}
+
+.testimonials p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.testimonials strong {
+    font-weight: bold;
+}
+
+/* about us */
+.contactUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+}
+
+/* location */
+.location {
+    width: 40%;
+}
+
+.location iframe {
+    height: 300px;
+    width: 500px;
+}
+
+/* inputs */
+.contact-form {
+    width: 100%;
+    /* Make the form take full width of the container */
+    max-width: 600px;
+    /* Limit the maximum width to 600px */
+    padding: 20px;
+    /* Add padding inside the form for spacing */
+    border: 1px solid #ddd;
+    /* Light gray border around the form */
+    border-radius: 4px;
+    /* Slightly round the corners of the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow for depth */
+    background-color: #fff;
+    /* Set the background color to white */
+    text-align: center;
+    /* Center-align the text inside the form */
+}
+
+/* Styling for the form heading */
+.contact-form h1 {
+    margin-bottom: 20px;
+    /* Add space below the heading */
+    font-size: 24px;
+    /* Increase the font size of the heading */
+}
+
+/* Container for each row of the form inputs */
+.form-row {
+    display: flex;
+    /* Use flexbox to layout the row's children */
+    margin-bottom: 15px;
+    /* Add space below each form row */
+}
+
+/* Add margin between the inputs */
+.form-row input {
+    margin-left: 20px;
+    /* Add margin to the left of inputs */
+}
+
+/* Styling for input and textarea fields */
+.form-row input,
+.form-row textarea {
+    width: 100%;
+    /* Make inputs and textarea take full width of the row */
+    padding: 10px;
+    /* Add padding inside inputs and textarea */
+    border: none;
+    /* Remove the default border */
+    border-bottom: 1px solid #888;
+    /* Add a bottom border for inputs and textarea */
+    margin-bottom: 10px;
+    /* Add space below each input and textarea */
+    font-size: 16px;
+    /* Set a standard font size */
+}
+
+/* Styling for input and textarea when focused */
+.form-row input:focus,
+.form-row textarea:focus {
+    outline: none;
+    /* Remove the default outline */
+    border-bottom-color: #333;
+    /* Change bottom border color on focus */
+}
+
+/* Styling for the submit button */
+.form-row button {
+    padding: 15px;
+    /* Add padding inside the button */
+    background-color: #d9534f;
+    /* Set the background color of the button */
+    color: white;
+    /* Set the text color to white */
+    border: none;
+    /* Remove the default border */
+    border-radius: 4px;
+    /* Round the corners of the button */
+    font-size: 16px;
+    /* Set the font size of the button text */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering */
+    transition: background-color 0.3s;
+    /* Smooth transition for background color change */
+}
+
+/* Styling for the submit button on hover */
+.form-row button:hover {
+    background-color: #c9302c;
+    /* Darken the button's background color on hover */
+}
+
+
+
+
+.section {
+    text-align: center;
+    width: 300px;
+    height: 300px; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.open-hours {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.open-hours .content {
+    text-align: center;
+    height: 300px; 
+    width: 300px;
+}
+
+.social {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+
+.section p {
+    margin-bottom: 15px;
+}
+
+.open-hours .content h3 {
+    margin-bottom: 10px;
+}
+
+.social a {
+
+    display: inline-block;
+    color: #f44336;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.social a:hover {
+    color: #ffffff;
+}
+
+.Copyright{
+    margin-top: 10px;
+}
